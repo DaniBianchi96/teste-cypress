@@ -1,5 +1,5 @@
 describe('template spec', () => {
-  it('passes', () => {
+  it('Testes', () => {
     cy.visit('https://www.google.com.br')
     cy.get('#APjFqb').type('facebook')
     cy.get('.aajZCb > .lJ9FBc > center > .gNO89b').click()
